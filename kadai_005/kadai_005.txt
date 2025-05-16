@@ -1,0 +1,19 @@
+Last login: Mon May 12 18:44:28 on ttys002
+kaho.yamamoto@MacBook-Air ~ % cd desktop
+kaho.yamamoto@MacBook-Air desktop % mkdir git_challenge
+kaho.yamamoto@MacBook-Air desktop % cd git_challenge
+kaho.yamamoto@MacBook-Air git_challenge % git init           
+Initialized empty Git repository in /Users/kaho.yamamoto/Desktop/git_challenge/.git/
+kaho.yamamoto@MacBook-Air git_challenge % git add hello_world.txt
+kaho.yamamoto@MacBook-Air git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) c44e95e] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+kaho.yamamoto@MacBook-Air git_challenge % git add hello_world.txt              
+kaho.yamamoto@MacBook-Air git_challenge % git commit -m "日本語訳を追記"       
+[main 4e2098b] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+kaho.yamamoto@MacBook-Air git_challenge % git log --oneline
+4e2098b (HEAD -> main) 日本語訳を追記
+c44e95e hello_world.txtを追加
+kaho.yamamoto@MacBook-Air git_challenge % 
